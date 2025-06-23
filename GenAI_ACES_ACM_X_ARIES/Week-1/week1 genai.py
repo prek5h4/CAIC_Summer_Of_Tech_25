@@ -2,9 +2,9 @@ import os
 from groq import Groq
 import google.generativeai as genai
 client = Groq(
-    api_key= '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',
+    api_key= '###',
 )
-genai.configure(api_key = 'AIzaSyDDvh4ciTziBe_8uwm4HxM3zMiQUWPlkYE')
+genai.configure(api_key = '###')
 
 gmodel = genai.GenerativeModel('gemini-1.5-flash')
 
